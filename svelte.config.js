@@ -16,10 +16,6 @@ import node from '@sveltejs/adapter-node';
 const config = {
 	kit: {
 		adapter: node(),
-
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
 	}
 }
 
